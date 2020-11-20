@@ -11,6 +11,8 @@
 		9E6B07F225671DD400A0D07E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B07F125671DD400A0D07E /* ContentView.swift */; };
 		9E6B07F425671DD600A0D07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6B07F325671DD600A0D07E /* Assets.xcassets */; };
 		9E6B07F725671DD600A0D07E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6B07F625671DD600A0D07E /* Preview Assets.xcassets */; };
+		9E6B080225671DF300A0D07E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B080125671DF300A0D07E /* Home.swift */; };
+		9E6B080625671E0000A0D07E /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B080525671E0000A0D07E /* Hexagon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9E6B07F325671DD600A0D07E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E6B07F625671DD600A0D07E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E6B07F825671DD600A0D07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6B080125671DF300A0D07E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9E6B080525671E0000A0D07E /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		9E6B07EE25671DD400A0D07E /* HoneyComb_CustomGridView */ = {
 			isa = PBXGroup;
 			children = (
+				9E6B080025671DE800A0D07E /* Model */,
+				9E6B07FF25671DE300A0D07E /* View */,
 				9E6B07EF25671DD400A0D07E /* HoneyComb_CustomGridViewApp.swift */,
 				9E6B07F125671DD400A0D07E /* ContentView.swift */,
 				9E6B07F325671DD600A0D07E /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				9E6B07F625671DD600A0D07E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E6B07FF25671DE300A0D07E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B080125671DF300A0D07E /* Home.swift */,
+				9E6B080525671E0000A0D07E /* Hexagon.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E6B080025671DE800A0D07E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E6B07F225671DD400A0D07E /* ContentView.swift in Sources */,
+				9E6B080225671DF300A0D07E /* Home.swift in Sources */,
+				9E6B080625671E0000A0D07E /* Hexagon.swift in Sources */,
 				9E6B07F025671DD400A0D07E /* HoneyComb_CustomGridViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HoneyComb_CustomGridView/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HoneyComb_CustomGridView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HoneyComb_CustomGridView/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HoneyComb_CustomGridView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
